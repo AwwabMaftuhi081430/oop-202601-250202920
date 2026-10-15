@@ -40,7 +40,7 @@ Saya perlu memahami seluruh codebase atau repository ini untuk mata kuliah OOP 2
 
 ## Penggunaan AI
 
-- Alat yang dipakai: Copilot dan ChatGPT
+- Alat yang dipakai: Copilot dan ChatGPT.
 - Bagian yang dibantu AI: Memahami garis besarnya mata kuliah OOP ini, menginstall JDK 21 dan maven untuk praktikum, dan memberi contoh satu implementasi `HelloOOP`.
 - Prompt utama:
   1. Kamu adalah pembimbing untuk urusan IT utamanya programming.Carikan kode untuk install JDK 21 di CMD dan maven. Jika tidak ada, carikan cara step by step nya.
