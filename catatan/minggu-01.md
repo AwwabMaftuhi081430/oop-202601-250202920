@@ -31,6 +31,7 @@ Saya memilih format sapaan berikut untuk ketiga paradigma:
 Hello Aset-Pinjam, saya <nama> (<nim>)
 ```
 
+
 Format yang sama digunakan agar perbedaan hanya terletak pada cara program dibangun, bukan hasil akhirnya. Gaya prosedural menggunakan method statis, gaya OOP menyimpan nama dan NIM dalam field private, sedangkan gaya functional menghasilkan lambda bertipe `Function<String, String>`.
 
 ## Kendala
