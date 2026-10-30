@@ -44,3 +44,5 @@ public class Laptop extends Aset {
 
     // hitungDenda(int) dikerjakan pada Minggu 4.
 }
+
+ 

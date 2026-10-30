@@ -26,3 +26,5 @@ public class Ruang extends Aset {
 
     // TODO minggu 3: override getJenis(). Minggu 4: override hitungDenda(int).
 }
+
+ 

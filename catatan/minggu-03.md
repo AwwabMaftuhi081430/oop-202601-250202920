@@ -1,7 +1,7 @@
 # Catatan Minggu 03: Inheritance
 
 ## Yang saya kerjakan
-Saya melengkapi tiga subclass dari `Aset`, yaitu `Ruang`, `Laptop`, dan `AlatLab`. Setiap class punya field khusus, konstruktor yang memanggil `super(kode, nama)`, getter, dan `getJenis()` yang mengembalikan `JenisAset` sesuai kelasnya. Validasi ditambahkan sesuai aturan tugas: kapasitas ruang > 0, spesifikasi dan nomor inventaris laptop tidak boleh kosong, laboratorium tidak boleh kosong, dan tingkat risiko tidak boleh null. Hasil tes: [isi, misalnya "semua tes Minggu 1-3 lulus dan CI hijau"].
+Saya melengkapi tiga subclass dari `Aset`, yaitu `Ruang`, `Laptop`, dan `AlatLab`. Setiap class punya field khusus, konstruktor yang memanggil `super(kode, nama)`, getter, dan `getJenis()` yang mengembalikan `JenisAset` sesuai kelasnya. Validasi ditambahkan sesuai aturan tugas: kapasitas ruang > 0, spesifikasi dan nomor inventaris laptop tidak boleh kosong, laboratorium tidak boleh kosong, dan tingkat risiko tidak boleh null.
 
 ## Keputusan desain
 - **Field di induk vs subclass.** `kode` dan `nama` dimiliki semua aset, jadi tetap di `Aset`. `kapasitas` hanya relevan untuk ruang, `spesifikasi` dan `nomorInventaris` untuk laptop, dan `laboratorium` serta `tingkatRisiko` untuk alat lab, jadi masing-masing di subclass.
